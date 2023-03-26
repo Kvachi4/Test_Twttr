@@ -1,0 +1,8 @@
+from twttr import shorten
+
+def test_shorten():
+    assert shorten("LASHA") == "LSH"
+    assert shorten("GOOGLE") == "GGL"
+   
+    
+
